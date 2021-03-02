@@ -1,0 +1,19 @@
+// Instance: Flight to Madrid
+
+// Attributes
+
+destination = "Madrid, Spain"
+roundtrip = false
+cost = 113.72
+seat = "Middle"
+class = "Economy"
+boarding_number = 67
+luggage_types = ["Checked bag", "Personal purse"]
+
+// Methods
+
+purchase_return_flight (roundtrip = true, cost = 227.44)
+upgrade_class (class = "Upgraded", boarding_number = 47)
+add_luggage (luggage_types = ["Checked bag", "Personal purse", "Carry-on luggage"])
+order_beverage (cost = 232.44)
+change_seat (seat = "Window")
