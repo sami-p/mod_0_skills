@@ -1,0 +1,16 @@
+// Class: AirportBathroom
+
+// Attributes
+gender (string)
+stall_types (array)
+is_clean (boolean)
+is_open (boolean)
+total_stall_number (integer)
+open_stall_number (integer)
+wait_time (integer)
+
+// Methods
+clean (sets is_clean boolean to true)
+lock_stall (subtracts 1 from open_stall_number integer)
+overflow (sets is_open and is_clean booleans to false)
+get_in_line (adds 5 to wait_time integer)
