@@ -1,0 +1,19 @@
+// Class: Flight
+
+// Attributes
+
+destination (string)
+roundtrip (boolean)
+cost (float)
+seat (string)
+class (string)
+boarding_number (integer)
+luggage_types (array)
+
+// Methods
+
+purchase_return_flight (sets roundtrip boolean to true and multiplies cost float by 2)
+upgrade_class (sets class string to Upgraded and subtracts 20 from boarding_number integer)
+add_luggage (modifies luggage_types array)
+order_beverage (adds 5 to cost float)
+change_seat (modifies seat string)
