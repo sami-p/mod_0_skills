@@ -1,0 +1,18 @@
+// Instance: Women's
+
+// Attributes:
+
+gender = "Women's"
+stall_types = ["regular 2", "mother's stall 1", "handicap 1"]
+is_clean = false
+is_open = true
+total_stall_number = 4
+open_stall_number = 1
+wait_time = 0
+
+// Methods:
+
+lock_stall (open_stall_number = 0)
+get_in_line (wait_time = 5)
+overflow (is_open = false)
+clean (is_clean = true)
