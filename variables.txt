@@ -17,4 +17,4 @@ puts favorite_foods = ["Mac n cheese", "Soup", "Goldfish"]
 puts favorite_foods.shift
 
 # line of code that prints number of characters in movie string
-puts movie.count
+puts movie.length
