@@ -1,0 +1,20 @@
+movie = "She's the Man"
+is_entertaining = true
+
+# movie variable re-assigned
+puts movie = "The Parent Trap"
+
+num_4 = 4
+num_6 = 6
+
+# multiply num_4 variable by num_6 variable and set to new variable called product
+puts product = num_4 * num_6
+
+favorite_foods = ["Mac n cheese", "Soup", "Goldfish"]
+
+# line of code that removes the first element in favorite_foods array
+# puts favorite_foods = ["Soup", "Goldfish"]
+puts favorite_foods.shift
+
+# line of code that prints number of characters in movie string
+puts movie.count
