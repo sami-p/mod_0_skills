@@ -14,7 +14,7 @@ puts favorite_foods = ["Mac n cheese", "Soup", "Goldfish"]
 
 # line of code that removes the first element in favorite_foods array
 # puts favorite_foods = ["Soup", "Goldfish"]
-puts favorite_foods.shift
+puts favorite_foods.delete_at(0)
 
 # line of code that prints number of characters in movie string
 puts movie.length
